@@ -30,9 +30,8 @@ function draw() {
       car.shapeColor="red";
     }
   }
+  drawSprites();
   textSize(50);
   fill("white");
   text("Deformation:"+def,400,300);
-  drawSprites();
-
 }
